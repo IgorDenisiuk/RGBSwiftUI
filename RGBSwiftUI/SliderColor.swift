@@ -13,10 +13,7 @@ struct SliderColor: View {
     let sliderColor: Color
     
     @State private var showAlert = false
-    
-    private let minValue: Double = 0
-    private let maxValue: Double = 255
-    
+
     var body: some View {
         HStack {
             Text("\(lround(value))")
@@ -43,10 +40,10 @@ struct SliderColor: View {
     
     private func checkValue() {
         switch value {
-        case ...0:
+        case ..<0:
             value = 0
             showAlert.toggle()
-        case 255...:
+        case 256...:
             value = 255
             showAlert.toggle()
         default:
