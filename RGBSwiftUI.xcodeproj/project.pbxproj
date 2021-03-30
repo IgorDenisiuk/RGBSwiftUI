@@ -13,6 +13,7 @@
 		0568C6902611CDFB0084F566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0568C68F2611CDFB0084F566 /* Assets.xcassets */; };
 		0568C6932611CDFB0084F566 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0568C6922611CDFB0084F566 /* Preview Assets.xcassets */; };
 		0568C6962611CDFB0084F566 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0568C6942611CDFB0084F566 /* LaunchScreen.storyboard */; };
+		0568C6A426131C030084F566 /* SliderColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0568C6A326131C030084F566 /* SliderColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0568C6922611CDFB0084F566 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0568C6952611CDFB0084F566 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0568C6972611CDFB0084F566 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0568C6A326131C030084F566 /* SliderColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				0568C6892611CDF70084F566 /* AppDelegate.swift */,
 				0568C68B2611CDF70084F566 /* SceneDelegate.swift */,
 				0568C68D2611CDF70084F566 /* ContentView.swift */,
+				0568C6A326131C030084F566 /* SliderColor.swift */,
 				0568C68F2611CDFB0084F566 /* Assets.xcassets */,
 				0568C6942611CDFB0084F566 /* LaunchScreen.storyboard */,
 				0568C6972611CDFB0084F566 /* Info.plist */,
@@ -147,6 +150,7 @@
 			files = (
 				0568C68A2611CDF70084F566 /* AppDelegate.swift in Sources */,
 				0568C68C2611CDF70084F566 /* SceneDelegate.swift in Sources */,
+				0568C6A426131C030084F566 /* SliderColor.swift in Sources */,
 				0568C68E2611CDF70084F566 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
